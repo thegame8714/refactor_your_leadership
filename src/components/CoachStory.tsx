@@ -17,7 +17,7 @@ export default function CoachStory() {
           <div className="relative h-40 w-40 flex-none overflow-hidden rounded-full">
             <Image
               src="/images/fabio-salimbeni.jpg"
-              alt="Fabio Salimbeni"
+              alt="Fabio Salimbeni, founder and lead coach of Refactor Your Leadership"
               fill
               sizes="160px"
               className="object-cover object-[center_20%]"
