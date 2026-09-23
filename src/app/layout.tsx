@@ -14,6 +14,11 @@ const anton = Anton({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL(
+    process.env.VERCEL_URL
+      ? `https://${process.env.VERCEL_URL}`
+      : "http://localhost:3000"
+  ),
   title: "Refactor Your Leadership, Coaching for Engineering Managers",
   description:
     "A coaching program for Engineering Managers, new or experienced, who feel stuck, undervalued, or overwhelmed by a role AI is redefining. Build the confidence, communication, and leadership skills nobody trained you for.",
