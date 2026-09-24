@@ -60,11 +60,12 @@ export default function Curriculum() {
             Inside the program
           </p>
           <h2 className="mt-4 font-display text-3xl uppercase tracking-wide sm:text-4xl">
-            10 live sessions, worked through on your real situation
+            10 live sessions over 10 weeks, worked through on your real
+            situation
           </h2>
           <p className="mt-4 text-cream/70">
-            Every module ties back to something you can act on with your
-            own team.
+            One module a week. Every module ties back to something you can
+            act on with your own team.
           </p>
         </div>
         <ol className="mt-16 space-y-10">

@@ -7,7 +7,7 @@ export const faqs = [
   {
     question: "What does the program actually involve?",
     answer:
-      "Refactor Your Leadership is a live coaching program built around your real situation as an Engineering Manager, not generic leadership theory. Book a free call below and we'll walk you through the format, schedule, and next steps.",
+      "Refactor Your Leadership is a 10-week live coaching program, one module a week, built around your real situation as an Engineering Manager, not generic leadership theory. Book a free call below and we'll walk you through the schedule and next steps.",
   },
   {
     question: "I've been an EM for years, is this too basic for me?",

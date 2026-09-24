@@ -12,8 +12,8 @@ export default function AboutProgram() {
         <p className="mt-6 text-lg leading-relaxed text-navy/75">
           The Engineering Manager role is being redefined by AI, and most
           EMs, new or experienced, were never trained for the version of
-          the job that now exists. Refactor Your Leadership is a coaching
-          program that helps you build genuine confidence as a leader,
+          the job that now exists. Refactor Your Leadership is a 10-week
+          coaching program that helps you build genuine confidence as a leader,
           communicate in a way that actually lands with each person on your
           team, and use AI as a real leadership partner, not just a
           productivity shortcut, while you develop the human skills AI

@@ -1,6 +1,6 @@
 # Refactor Your Leadership
 
-> A coaching program for Engineering Managers, new or experienced, who feel stuck, undervalued, or overwhelmed by a role AI is redefining. Led by Fabio Salimbeni.
+> A 10-week coaching program for Engineering Managers, new or experienced, who feel stuck, undervalued, or overwhelmed by a role AI is redefining. Led by Fabio Salimbeni.
 
 ## About
 
@@ -17,7 +17,7 @@ Refactor Your Leadership helps Engineering Managers build genuine confidence as 
 - Unclear authority, bypassing behaviour, and lack of structured leadership
 - General overwhelm from delivery, team wellbeing, and an AI-era role shift nobody trained them for
 
-## Curriculum (10 modules)
+## Curriculum (10 modules over 10 weeks, one module a week)
 
 1. The AI-Ready Mindset
 2. AI as Your Leadership Partner
