@@ -2,7 +2,7 @@ export const faqs = [
   {
     question: "How do I sign up?",
     answer:
-      "There's no sign-up form. Book a free call directly from this page, and we'll go over your situation and the program together to see if it's the right fit.",
+      "There's no sign-up form. Book a free Breakthrough Call directly from this page, a relaxed conversation to clarify your doubts about how the program can help. No obligation, not a sales pitch.",
   },
   {
     question: "What does the program actually involve?",

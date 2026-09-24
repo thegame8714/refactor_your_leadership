@@ -33,7 +33,7 @@ export default function Hero() {
             rel="noopener noreferrer"
             className="w-full rounded bg-violet px-[30px] py-5 text-base font-bold uppercase tracking-wide text-cream transition-opacity hover:opacity-90 sm:w-auto"
           >
-            Book a Free Call
+            Book Your Breakthrough Call
           </a>
           <a
             href="#curriculum"
@@ -42,6 +42,9 @@ export default function Hero() {
             See how it works
           </a>
         </div>
+        <p className="mt-4 text-sm text-cream/50">
+          No obligation, not a sales pitch, just a real conversation.
+        </p>
       </div>
     </section>
   );

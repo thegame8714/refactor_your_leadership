@@ -94,6 +94,20 @@ const jsonLd = {
         "@type": "Audience",
         audienceType: "Engineering Managers",
       },
+      review: [
+        {
+          "@type": "Review",
+          reviewBody:
+            "I received guidance on building trust within my team. The advice was valuable and it will help me in building my career going forwards.",
+          author: { "@type": "Person", name: "Yuvika A." },
+        },
+        {
+          "@type": "Review",
+          reviewBody:
+            "Fabio taught how to remove bottlenecks, establish clear accountability, and gave me the psychological safety to innovate without fear of failure.",
+          author: { "@type": "Person", name: "Mihai M." },
+        },
+      ],
       url: SITE_URL,
     },
     {

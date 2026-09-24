@@ -7,6 +7,7 @@ import CoachStory from "@/components/CoachStory";
 import Curriculum from "@/components/Curriculum";
 import Outcomes from "@/components/Outcomes";
 import WhoItsFor from "@/components/WhoItsFor";
+import Testimonials from "@/components/Testimonials";
 import FAQ from "@/components/FAQ";
 import FinalCTA from "@/components/FinalCTA";
 import Footer from "@/components/Footer";
@@ -24,6 +25,7 @@ export default function Home() {
         <Curriculum />
         <Outcomes />
         <WhoItsFor />
+        <Testimonials />
         <FAQ />
         <FinalCTA />
       </main>

@@ -2,7 +2,7 @@ const problems = [
   {
     title: "The confidence gap",
     description:
-      "You're technically excellent, but a quiet voice keeps asking whether you're actually cut out to lead people, not build systems.",
+      "You're technically excellent, but a quiet voice keeps asking whether you can lead people as well as you can build systems.",
   },
   {
     title: "Communication that doesn't land",
