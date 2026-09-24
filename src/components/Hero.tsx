@@ -1,5 +1,3 @@
-import { BOOKING_URL } from "@/lib/links";
-
 export default function Hero() {
   return (
     <section id="top" className="relative overflow-hidden bg-navy-dark text-cream">
@@ -28,9 +26,7 @@ export default function Hero() {
         </p>
         <div className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">
           <a
-            href={BOOKING_URL}
-            target="_blank"
-            rel="noopener noreferrer"
+            href="#book"
             className="w-full rounded bg-violet px-[30px] py-5 text-base font-bold uppercase tracking-wide text-cream transition-opacity hover:opacity-90 sm:w-auto"
           >
             Book Your Breakthrough Call

@@ -1,4 +1,4 @@
-import { BOOKING_URL } from "@/lib/links";
+import { BOOKING_URL, BOOKING_EMBED_URL } from "@/lib/links";
 
 export default function FinalCTA() {
   return (
@@ -14,19 +14,36 @@ export default function FinalCTA() {
           This is a Breakthrough Call, a free conversation to clarify every
           doubt you have about how the program can help your specific
           situation. We&rsquo;ll talk through your current role, what&rsquo;s
-          got you feeling stuck, and whether it&rsquo;s the right fit, no
-          forms, no waiting for a reply.
+          got you feeling stuck, and whether it&rsquo;s the right fit. Pick a
+          time below, no forms, no waiting for a reply.
         </p>
-        <a
-          href={BOOKING_URL}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="mt-10 inline-block rounded bg-violet px-[30px] py-5 text-base font-bold uppercase tracking-wide text-cream transition-opacity hover:opacity-90"
-        >
-          Book Your Breakthrough Call
-        </a>
-        <p className="mt-4 text-sm text-cream/50">
+        <p className="mt-2 text-sm text-cream/50">
           No obligation, not a sales pitch, just a real conversation.
+        </p>
+      </div>
+
+      <div className="mx-auto mt-10 max-w-2xl px-6">
+        <div className="overflow-hidden rounded border border-cream/15 bg-white">
+          <iframe
+            src={BOOKING_EMBED_URL}
+            title="Book a Breakthrough Call"
+            width="100%"
+            height="800"
+            style={{ border: 0 }}
+            loading="lazy"
+          />
+        </div>
+        <p className="mt-4 text-center text-sm text-cream/50">
+          Calendar not loading?{" "}
+          <a
+            href={BOOKING_URL}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-violet underline underline-offset-2 hover:text-cream"
+          >
+            Open it in a new tab
+          </a>
+          .
         </p>
       </div>
     </section>

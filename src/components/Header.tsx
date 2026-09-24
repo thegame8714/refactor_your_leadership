@@ -1,5 +1,4 @@
 import Image from "next/image";
-import { BOOKING_URL } from "@/lib/links";
 
 export default function Header() {
   return (
@@ -37,9 +36,7 @@ export default function Header() {
           </a>
         </nav>
         <a
-          href={BOOKING_URL}
-          target="_blank"
-          rel="noopener noreferrer"
+          href="#book"
           className="rounded bg-violet px-5 py-2.5 text-sm font-bold uppercase tracking-wide text-cream transition-opacity hover:opacity-90"
         >
           Book a Call
